@@ -29,7 +29,7 @@
     _enablePickingVideo = false;
     _enablePickingImage = true;
     _enablePickingGif = true;
-    _enablePickingOriginalPhoto = true;
+    _enablePickingOriginalPhoto = false;
     _enableShowSheet = false;
     _enableCrop = false;
     _enableCircleCrop = false;

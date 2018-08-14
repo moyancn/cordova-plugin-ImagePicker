@@ -163,6 +163,7 @@ public class ImageGridActivity extends ImageBaseActivity implements ImageDataSou
         mCbOrigin.setText(getString(res_origin));
         mCbOrigin.setOnCheckedChangeListener(this);
         mCbOrigin.setChecked(isOrigin);
+        mCbOrigin.setEnabled(false);
 
 //        mImageGridAdapter = new ImageGridAdapter(this, null);
         mImageFolderAdapter = new ImageFolderAdapter(this, null);
