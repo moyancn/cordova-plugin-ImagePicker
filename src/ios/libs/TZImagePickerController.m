@@ -222,7 +222,8 @@
     self = [super initWithRootViewController:previewVc];
     if (self) {
         self.selectedAssets = [NSMutableArray arrayWithArray:selectedAssets];
-        self.allowPickingOriginalPhoto = self.allowPickingOriginalPhoto;
+        //self.allowPickingOriginalPhoto = self.allowPickingOriginalPhoto;
+        self.allowPickingOriginalPhoto = NO;
         [self configDefaultSetting];
         
         previewVc.photos = [NSMutableArray arrayWithArray:selectedPhotos];

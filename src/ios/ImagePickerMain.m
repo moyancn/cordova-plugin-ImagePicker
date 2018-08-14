@@ -84,7 +84,8 @@
     // 3. 设置是否可以选择视频/图片/原图
     imagePickerVc.allowPickingVideo = self.enablePickingVideo;
     imagePickerVc.allowPickingImage = self.enablePickingImage;
-    imagePickerVc.allowPickingOriginalPhoto = self.enablePickingOriginalPhoto;
+    //imagePickerVc.allowPickingOriginalPhoto = self.enablePickingOriginalPhoto;
+    imagePickerVc.allowPickingOriginalPhoto = NO;
     imagePickerVc.allowPickingGif = self.enablePickingGif;
     imagePickerVc.allowPickingMultipleVideo = self.enablePickingMuitlpleVideo; // 是否可以多选视频
 
@@ -521,7 +522,8 @@
             TZImagePickerController *imagePickerVc = [[TZImagePickerController alloc] initWithSelectedAssets:_selectedAssets selectedPhotos:_selectedPhotos index:indexPath.row];
             imagePickerVc.maxImagesCount = self.maxCountTF;
             imagePickerVc.allowPickingGif = self.enablePickingGif;
-            imagePickerVc.allowPickingOriginalPhoto = self.enablePickingOriginalPhoto;
+            //imagePickerVc.allowPickingOriginalPhoto = self.enablePickingOriginalPhoto;
+            imagePickerVc.allowPickingOriginalPhoto = NO;
             imagePickerVc.allowPickingMultipleVideo = self.enablePickingMuitlpleVideo;
             imagePickerVc.showSelectedIndex = self.enableSelectedIndex;
             imagePickerVc.isSelectOriginalPhoto = _isSelectOriginalPhoto;
@@ -601,7 +603,8 @@
     // 3. 设置是否可以选择视频/图片/原图
     imagePickerVc.allowPickingVideo = self.enablePickingVideo;
     imagePickerVc.allowPickingImage = self.enablePickingImage;
-    imagePickerVc.allowPickingOriginalPhoto = self.enablePickingOriginalPhoto;
+    //imagePickerVc.allowPickingOriginalPhoto = self.enablePickingOriginalPhoto;
+    imagePickerVc.allowPickingOriginalPhoto = NO;
     imagePickerVc.allowPickingGif = self.enablePickingGif;
     imagePickerVc.allowPickingMultipleVideo = self.enablePickingMuitlpleVideo; // 是否可以多选视频
 
