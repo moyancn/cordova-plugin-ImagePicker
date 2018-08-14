@@ -94,6 +94,8 @@ public class ImagePreviewActivity extends ImagePreviewBaseActivity implements Im
         mCbOrigin.setText(getString(res_origin));
         mCbOrigin.setOnCheckedChangeListener(this);
         mCbOrigin.setChecked(isOrigin);
+        mCbOrigin.setEnabled(false);
+        mCbOrigin.setVisibility(false);
 
         marginView = findViewById(resource.getIdentifier("margin_bottom", "id", pkgName));
 
